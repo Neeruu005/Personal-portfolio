@@ -1,28 +1,28 @@
 import React from 'react';
-import sangeet from '/src/assets/engding.png';
+import sangeet from '/src/assets/tic tok.png';
 import engding from '/src/assets/engding.png';
-import tototimer from '/src/assets/engding.png';
+import tototimer from '/src/assets/quant.jpeg';
 
 const projectsData = [
   {
-    title: 'Tototimer',
-    description: 'PWA App to Manage Time, Money and Work.',
-    code: '#',
-    live: '#',
+    title: ' AI voice assistent',
+    description: 'I developed an AI Voicer Assistant using HTML, CSS, and JavaScript. The assistant is capable of processing voice commands and delivering responses through a user-friendly interface. This project showcases my ability to integrate front-end web technologies with AI-based voice functionalities.',
+    code: 'https://github.com/Neeruu005/AI-Jarvis.git',
+    live: 'https://legendary-sprite-e0bb0a.netlify.app',
     stack: 'React, Tailwind CSS',
     thumbnail: tototimer,
   },
   {
-    title: 'Sangeet - Music UI',
-    description: 'Music app desktop UI made using HTML, Vanilla CSS and JS',
-    code: '#',
+    title: 'Tic-Tac-Toe',
+    description: 'I built a Tic-Tac-Toe game using HTML, CSS, and JavaScript. The game features an interactive and responsive design, offering a smooth user experience. It demonstrates my proficiency in front-end web development and applying logic for game functionalities',
+    code: 'https://github.com/Neeruu005/tic-tac-toe-games.git',
     live: '#',
     stack: 'HTML, CSS, JavaScript',
     thumbnail: sangeet,
   },
   {
     title: 'EngDing',
-    description: 'E-learning landing page design using Bootstrap 5',
+    description: 'I built a Tic-Tac-Toe game using HTML, CSS, and JavaScript. The game features an interactive and responsive design, offering a smooth user experience. It demonstrates my proficiency in front-end web development and applying logic for game functionalities',
     code: '#',
     live: '#',
     stack: 'HTML, Bootstrap 5',
@@ -45,7 +45,7 @@ const Project = () => {
               loading="lazy"
               width="400"
               height="400"
-              className="object-cover w-full h-auto rounded-2xl"
+              className="object-cover w-full h-1/2 rounded-2xl"
               src={project.thumbnail}
             />
             <div className="flex flex-col items-start mt-5 space-y-3">

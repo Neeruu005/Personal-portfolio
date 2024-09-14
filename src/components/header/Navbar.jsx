@@ -19,7 +19,7 @@ function classNames(...classes) {
 
  const Navbar = () => {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800 ">
       {({ open }) => (
         <>
           <div className="  w-full h-full px-2  sm:px-6 lg:px-8">
